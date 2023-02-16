@@ -17,13 +17,16 @@ export default function Navigation({currentPage, handlePageChange}){
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#x">Portafolio</a>
+          <a className={currentPage === "Portafolio" ? "nav-link active" : "nav-link"} href="#Portafolio"
+          onClick={()=> handlePageChange('Portafolio')}>Portafolio</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#x">Contacto</a>
+          <a className={currentPage === "Contacto" ? "nav-link active" : "nav-link"} href="#Contacto"
+          onClick={()=> handlePageChange('Contacto')}>Contacto</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#x">Resumen</a>
+          <a className={currentPage === "Resumen" ? "nav-link active" : "nav-link"} href="#Resumen"
+          onClick={()=> handlePageChange('Resumen')}>Resumen</a>
         </li>
       </ul>
     </div>

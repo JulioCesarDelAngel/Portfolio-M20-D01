@@ -10,21 +10,21 @@ export default function Navigation({currentPage, handlePageChange}){
     </button>
     <div className="collapse navbar-collapse" id="navbarColor02">
       <ul className="navbar-nav me-auto">
-        <li className="nav-item">
+        <li className="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarColor02">
           <a className={currentPage === "Bio" ? "nav-link active" : "nav-link"}  href="#Bio"
             onClick={()=> handlePageChange('Bio')}>Bio
             <span className="visually-hidden">(current)</span>
           </a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarColor02">
           <a className={currentPage === "Portafolio" ? "nav-link active" : "nav-link"} href="#Portafolio"
           onClick={()=> handlePageChange('Portafolio')}>Portafolio</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarColor02">
           <a className={currentPage === "Contacto" ? "nav-link active" : "nav-link"} href="#Contacto"
           onClick={()=> handlePageChange('Contacto')}>Contacto</a>
         </li>
-        <li className="nav-item">
+        <li className="nav-item" data-bs-toggle="collapse" data-bs-target="#navbarColor02">
           <a className={currentPage === "Resumen" ? "nav-link active" : "nav-link"} href="#Resumen"
           onClick={()=> handlePageChange('Resumen')}>Resumen</a>
         </li>

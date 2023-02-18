@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { useState } from "react";
 import Navigation from "./Navigation";
 import Bio from './pages/Bio'
@@ -26,10 +26,13 @@ export default function Header(){
       const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div className="header">
-             <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
-             {renderPage()}
-        </div>
-        
+      <Fragment>
+        <header className="header">
+          <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
+        </header>
+        <body className="container">
+          <div>{renderPage()}</div>
+        </body>        
+      </Fragment>
     );
 }

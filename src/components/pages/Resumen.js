@@ -23,7 +23,9 @@ export default function Resumen () {
                 <li>Node</li>
                 <li>Express</li>
                 <li>MySQL, Sequelize</li>
-                <li>MONGO DB, Graphql</li>
+                <li>MONGO DB</li>
+                <li>Graphql</li>
+                <li>Apollo Server</li>
                 </ul>
             </blockquote>
             </figure>

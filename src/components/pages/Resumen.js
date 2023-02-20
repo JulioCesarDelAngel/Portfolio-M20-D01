@@ -7,6 +7,12 @@ export default function Resumen () {
 
             <figure>
             <blockquote className="blockquote">
+            
+                <a className="ms-2 me-2" href="https://github.com/JulioCesarDelAngel/Portfolio-M20-D01/raw/main/src/assets/files/cvjcdab.pdf" target="_blank" rel="noreferrer">
+                    <i className="bi bi-file-person align-middle" style={{fontSize:"3rem",color: "white"}}></i>
+                    Resumen
+                </a>
+                
                 <h5 className="blockquote mt-3">Competencias Font-end:</h5>
                 <ul>
                     <li>HTML</li>

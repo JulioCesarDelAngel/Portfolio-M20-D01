@@ -20,4 +20,4 @@
 * https://juliocesardelangel.github.io/Portfolio-M20-D01/
 
 ## Captura de pantalla de la aplicación
-![Visualización de la aplicación](https://github.com/JulioCesarDelAngel/Portfolio-M20-D01/tree/main/src/assets/images/Portfolio-M20-D01.png)
+![Visualización de la aplicación](https://raw.githubusercontent.com/JulioCesarDelAngel/Portfolio-M20-D01/main/src/assets/images/Portfolio-M20-D01.png)

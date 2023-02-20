@@ -3,7 +3,8 @@ import React, { Fragment }  from "react";
 export default function Resumen () {
     return (
         <Fragment>
-            <p className="blockquote mt-3">Resumen</p>
+            <h3 className="text-center">Resumen</h3>
+
             <figure>
             <blockquote className="blockquote">
                 <h5 className="blockquote mt-3">Competencias Font-end:</h5>

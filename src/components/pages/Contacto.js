@@ -4,7 +4,7 @@ export default function Contacto () {
     return (
         <div className="container text-center align-middle">
 
-            <legend>Contacto</legend>
+            <h3 className="text-center">Contacto</h3>
             <a className="ms-2 me-2" href="mailto:sysa.mail@gmail.com" target="_blank" rel="noreferrer">
                 <i className="bi bi-envelope align-middle" style={{fontSize:"3rem",color: "white"}}></i>
                 sysa.mail@gmail.com

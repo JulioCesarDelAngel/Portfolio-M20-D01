@@ -4,7 +4,7 @@ import profileImage from '../../assets/images/myAvatar_bw.png'
 export default function Bio () {
     return (
         <Fragment>
-            <p className="blockquote mt-3">Acerca de mi</p>
+            <h3 className="text-center">Acerca de mi</h3>
             <img src={profileImage} className="rounded-circle" style={{with:"100px",height:"100px"}}  
             borderRadius="50%" alt="Profile Img"></img>
                 <figure class="text-center">

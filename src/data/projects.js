@@ -2,7 +2,7 @@ export const projects =[
     {
         titulo:"Access-Control",
         subtitulo:"Sistema de control de acceso a visitantes de una empresa",
-        imagen:"https://github.com/dorecio/Access-Control/blob/main/client/assets/images/img01.png",
+        imagen:"https://github.com/dorecio/Access-Control/raw/63f70cb2420019e35b569df111b376703d005ba6/client/assets/images/img01.png",
         git:"https://github.com/dorecio/Access-Control",
         link:"https://access-control.herokuapp.com/dashboard/0"
     },

@@ -22,10 +22,17 @@ export const projects =[
     },
     {
         titulo:"TechInventoryApp",
-        subtitulo:"Sistema de contrl de inventario de computo",
+        subtitulo:"Sistema de control de inventario de computo",
         imagen:"https://github.com/carlosgortiz/tech-inventory-web-app/raw/main/assets/images/tech%20-%20inventory.gif",
         git:"https://github.com/carlosgortiz/tech-inventory-web-app",
-        link:"https://github.com/carlosgortiz/tech-inventory-web-app"
+        link:"https://techinven.herokuapp.com/"
+    },
+    {
+        titulo:"Access-Control",
+        subtitulo:"Sistema de control de acceso a visitantes de una empresa",
+        imagen:"https://github.com/dorecio/Access-Control/blob/main/client/assets/images/img01.png",
+        git:"https://github.com/dorecio/Access-Control",
+        link:"https://access-control.herokuapp.com/dashboard/0"
     }
 
 

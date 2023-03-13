@@ -1,5 +1,12 @@
 export const projects =[
     {
+        titulo:"Access-Control",
+        subtitulo:"Sistema de control de acceso a visitantes de una empresa",
+        imagen:"https://github.com/dorecio/Access-Control/blob/main/client/assets/images/img01.png",
+        git:"https://github.com/dorecio/Access-Control",
+        link:"https://access-control.herokuapp.com/dashboard/0"
+    },
+    {
         titulo:"Tech-Blog",
         subtitulo:"Blog CMS FullStack",
         imagen:"https://raw.githubusercontent.com/JulioCesarDelAngel/BLOG-CMS-M14-D01/main/assets/images/BLOG-CMS-M14-D01.png",
@@ -27,11 +34,5 @@ export const projects =[
         git:"https://github.com/carlosgortiz/tech-inventory-web-app",
         link:"https://techinven.herokuapp.com/"
     },
-    {
-        titulo:"Access-Control",
-        subtitulo:"Sistema de control de acceso a visitantes de una empresa",
-        imagen:"https://github.com/dorecio/Access-Control/blob/main/client/assets/images/img01.png",
-        git:"https://github.com/dorecio/Access-Control",
-        link:"https://access-control.herokuapp.com/dashboard/0"
-    },
+
 ]

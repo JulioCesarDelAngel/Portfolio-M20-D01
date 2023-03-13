@@ -6,7 +6,7 @@ export default function Portafolio () {
         <section id="projects">
             <h1 className="text-center"><i class="bi bi-code-slash"></i></h1>
             <h3 className="text-center">Portafolio y colaboraciones</h3>
-            <div class="row row-cols-1 row-cols-md-2 g-6">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
                 {
                     projects.map((project)=>(
                         <div className="col">

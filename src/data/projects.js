@@ -33,7 +33,5 @@ export const projects =[
         imagen:"https://github.com/dorecio/Access-Control/blob/main/client/assets/images/img01.png",
         git:"https://github.com/dorecio/Access-Control",
         link:"https://access-control.herokuapp.com/dashboard/0"
-    }
-
-
+    },
 ]
